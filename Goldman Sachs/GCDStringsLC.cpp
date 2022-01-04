@@ -8,7 +8,7 @@ public:
         
         if(str1+str2==str2+str1)  //O(l1+l2) for concatenation
         {
-            return str1.substr(0,__gcd(l1,l2));  // gcd takes O(log n) where n is upper limit of l1 and l2, substr takes O(min(l1,l2))                                                     is max of l1 and l2, substr                                                     takes min(l1,l2) time in                                                       worst case
+            return str1.substr(0,__gcd(l1,l2));  // gcd takes O(log n) where n is upper limit of l1 and l2, substr takes O(min(l1,l2))            
         }
         else
             return "";
